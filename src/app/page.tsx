@@ -8,17 +8,17 @@ export default function Home() {
         {/* Hero Section - Everyman Brand */}
         <div className="text-center space-y-6 max-w-[800px] mx-auto">
           <h1 className="text-gradient-brand">
-            AI Solutions for Everyone
+            Hello!
           </h1>
           <p className="text-lg text-medium-contrast max-w-2xl mx-auto">
-            We make AI approachable, practical, and accessible—helping people and organizations of all backgrounds solve real problems with confidence and clarity.
+            My name is Joshua Oppong. I am a sophomore at the New Jersey Institute of Technology. I am currently studying for my Bachelor's degree in Computer Science. I am a full-stack developer with a passion for creating innovative and user-friendly applications. I have experience in various programming languages and frameworks, including JavaScript, React, Node.js, and Python. I am always eager to learn new technologies and improve my skills. I am excited to share my journey with you and showcase my work.
           </p>
           <div className="flex gap-4 justify-center pt-4">
             <Button size="lg" className="text-base bg-gradient-brand hover:opacity-90">
-              Get Started
+              About
             </Button>
             <Button variant="outline" size="lg" className="text-base border-primary-600 text-primary-700 hover:bg-primary-50">
-              See How We Can Help
+              Portfolio
             </Button>
           </div>
         </div>
