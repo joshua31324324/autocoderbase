@@ -25,7 +25,7 @@ export default function Projects() {
 <a href="https://weekdays-nine.vercel.app/">
     <h2 className="text-lg text-medium-contrast text-center">Weekdays</h2>
 </a>
-<p>This site tells you what day it is today.</p>
+<p className="text-lg text-medium-contrast text-center">This site tells you what day it is today.</p>
 
         <div className="text-center">
           <Link href="/" className="text-primary underline hover:text-primary-700">Back to Home</Link>
