@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 
 export default function Home() {
@@ -15,10 +16,10 @@ export default function Home() {
           </p>
           <div className="flex gap-4 justify-center pt-4">
             <Button size="lg" className="text-base bg-gradient-brand hover:opacity-90">
-              About
+              <Link href="/about">About</Link>
             </Button>
             <Button variant="outline" size="lg" className="text-base border-primary-600 text-primary-700 hover:bg-primary-50">
-              Portfolio
+              <Link href="/projects">Portfolio</Link>
             </Button>
           </div>
         </div>
@@ -71,7 +72,7 @@ export default function Home() {
             Let’s work together to find practical, effective solutions that fit your needs. Everyone’s welcome.
           </p>
           <Button size="lg" className="text-base bg-gradient-innovation hover:opacity-90">
-            Connect With Us
+            <Link href="contact">Contact Me!</Link>
           </Button>
         </div>
       </main>
